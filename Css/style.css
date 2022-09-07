@@ -1,0 +1,23 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg_buttons_footer_first {
+    background-image: linear-gradient( 111.2deg,  rgb(47, 5, 232) 1.7%, rgb(245, 32, 85) 98.7% );
+}
+
+.bg_footer_first {
+    background: rgb(6,5,36);
+    background: linear-gradient(90deg, rgba(6,5,36,1) 6%, rgba(6,3,32,1) 27%, rgba(7,9,75,1) 78%, rgba(3,7,29,1) 91%);
+}
+
+.w_perso {
+    width: 50vh;
+}
+
+.bg_buttons {
+    background-image: linear-gradient( 111.2deg,  rgba(232,5,5,1) 1.7%, rgba(245,49,191,1) 98.7% );
+}
+#menuHaut{
+    transition: 0.5s;
+}
