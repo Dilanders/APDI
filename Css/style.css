@@ -22,26 +22,3 @@ html {
     transition: 0.5s;
 }
 
-
-
-
-.teste {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    display: block;
-    /* left: -2.5rem;
-    top: 1rem;
-    filter: blur(90px);
-    position: absolute;
-    object-fit: cover;
-    mix-blend-mode: soft-light;
-    opacity: .3; */
-}
-/* 
-.teste_1 {
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    filter: blur(90px);
-} */

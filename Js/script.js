@@ -14,21 +14,13 @@ supprim.addEventListener('click',()=>{
     supp.remove();
 })
 
-/* ========== Initialize Swiper ========== */
-
-      var swiper = new Swiper(".mySwiper", {
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: {
-          delay: 2500,
-          disableOnInteraction: false,
-        },
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-      });
+function SendMail() {
+    var params = {
+        from_name : document.getElementById("fullName").value,
+        email_id : document.getElementById("email_id").value,
+        message : document.getElementById("message").value
+    }
+    emailjs.send("service_mc4j1q8", "template_b2tq96e", params).then(function (res) {
+        alert("Success! " + res.status);
+    })
+}
